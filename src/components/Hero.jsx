@@ -1,6 +1,6 @@
 
 import React from 'react';
-import profileImage from '../assets/profile.jpg';
+import profileImage from '../assets/Profile.JPG';
 import { ArrowDown, Mail, Sparkles } from 'lucide-react';
 import { Github, Linkedin } from './SocialIcons';
 
