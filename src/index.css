@@ -2,6 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+.intro-animated {
+  display: inline-flex;
+}
+
+.intro-animated span {
+  display: inline-block;
+  opacity: 0;
+  animation: letterLoop 2.5s infinite;
+  animation-delay: calc(var(--i) * 0.12s);
+}
+
+@keyframes letterLoop {
+  0%, 5% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  15%, 75% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  90%, 100% {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;
@@ -104,3 +132,4 @@
     pointer-events: none;
   }
 }
+

@@ -1,7 +1,8 @@
+
 import React from 'react';
-import { ArrowDown, Mail, ExternalLink, Sparkles, Terminal } from 'lucide-react';
+import profileImage from '../assets/profile.jpg';
+import { ArrowDown, Mail, Sparkles } from 'lucide-react';
 import { Github, Linkedin } from './SocialIcons';
-import { HeroTechIllustration } from './TechIllustration';
 
 export function Hero({ profile, onOpenProfileModal }) {
   const handleScrollTo = (id) => {
@@ -17,10 +18,10 @@ export function Hero({ profile, onOpenProfileModal }) {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
-          
+
           {/* Left Text Column */}
           <div className="lg:col-span-7 text-center lg:text-left space-y-6">
-            
+
             {/* Status Badge */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-primary/10 border border-primary/30 text-primary dark:text-cyanAccent text-xs font-mono">
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
@@ -31,12 +32,18 @@ export function Hero({ profile, onOpenProfileModal }) {
 
             {/* Main Greeting & Headline */}
             <div className="space-y-2">
-              <p className="text-sm sm:text-base font-mono font-medium text-primary">
-                Hello, I'm
+              <p className="intro-animated text-sm sm:text-base font-mono font-medium text-primary">
+                {"Hello, I'm".split("").map((letter, index) => (
+                  <span key={index} style={{ "--i": index }}>
+                    {letter === " " ? "\u00A0" : letter}
+                  </span>
+                ))}
               </p>
+
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 dark:text-white">
                 {profile.name}
               </h1>
+
               <h2 className="text-xl sm:text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-primary to-cyanAccent">
                 {profile.headline}
               </h2>
@@ -110,10 +117,37 @@ export function Hero({ profile, onOpenProfileModal }) {
             </div>
           </div>
 
-          {/* Right Technology Illustration Column */}
-          <div className="lg:col-span-5 flex justify-center">
-            <HeroTechIllustration />
-          </div>
+          {/* Right Profile Image Column */}
+          
+{/* Right Profile Image Column */}
+<div className="lg:col-span-5 flex justify-center items-center">
+  <div className="relative group">
+
+    {/* Outer glow */}
+    <div className="absolute -inset-3 rounded-[2.5rem] bg-gradient-to-r from-primary via-cyanAccent to-blue-600 opacity-30 blur-xl group-hover:opacity-60 transition duration-500" />
+
+    {/* Gradient border */}
+    <div className="relative rounded-[2.2rem] p-[2px] bg-gradient-to-br from-primary via-cyanAccent to-blue-500 shadow-[0_0_35px_rgba(47,155,255,0.2)]">
+
+      {/* Image frame */}
+      <div className="w-72 h-80 sm:w-80 sm:h-96 lg:w-96 lg:h-[450px] overflow-hidden rounded-[2.1rem] bg-navy-950">
+
+        <img
+          src={profileImage}
+          alt="Ravy Voeun"
+          className="w-full h-full object-cover object-center transition duration-700 group-hover:scale-105"
+        />
+
+      </div>
+    </div>
+
+    {/* Small decorative corner */}
+    <div className="absolute -bottom-3 -right-3 w-12 h-12 border-r-2 border-b-2 border-cyanAccent rounded-br-2xl" />
+    <div className="absolute -top-3 -left-3 w-12 h-12 border-l-2 border-t-2 border-primary rounded-tl-2xl" />
+
+  </div>
+</div>
+
 
         </div>
       </div>
