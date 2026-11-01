@@ -68,7 +68,7 @@ export function Navbar({ isDark, onToggleTheme, onOpenProfileModal, profile }) {
             <div className="relative w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-cyanAccent p-0.5 shadow-glow-sm group-hover:shadow-glow transition-all duration-300">
               <div className="w-full h-full bg-[#050912] rounded-[10px] flex items-center justify-center">
                 <span className="font-mono font-black text-sm tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-primary to-cyanAccent">
-                  {profile.initials || 'RV'}
+                  {profile.initials || 'VR'}
                 </span>
               </div>
             </div>

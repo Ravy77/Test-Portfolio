@@ -2,10 +2,10 @@
 // Users can update these defaults directly here or through the interactive Quick Edit modal in the app.
 
 export const defaultProfile = {
-  name: "Ravy Voeun",
-  initials: "RV",
-  role: "MIS / IT Student & Aspiring Full-Stack Developer",
-  headline: "MIS Student | Aspiring Full-Stack Developer",
+  name: "Voeun Ravy",
+  initials: "VR",
+  role: "MIS / IT Student & Bridging Business and Technology",
+  headline: "MIS Student | Bridging Business and Technology",
   school: "SETEC Institute",
   program: "Management Information Systems (MIS) / Information Technology",
   academicStatus: "Undergraduate Student",
@@ -14,9 +14,9 @@ export const defaultProfile = {
   careerGoal: "Become a skilled IT professional who can combine programming, databases, networking, and business information systems.",
   
   // Editable contact placeholders
-  email: "ravy.voeun.placeholder@example.com",
-  githubUrl: "https://github.com/your-username",
-  linkedinUrl: "https://linkedin.com/in/your-profile",
+  email: "ravyvoeun787@gmail.com",
+  githubUrl: "https://github.com/Ravy77",
+  linkedinUrl: "https://www.linkedin.com/in/ravy-voeun",
 
   // Indicator whether URLs are still placeholders (prevents rendering misleading external links)
   isGithubConfigured: false,
