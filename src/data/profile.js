@@ -9,7 +9,7 @@ export const defaultProfile = {
   school: "SETEC Institute",
   program: "Management Information Systems (MIS) / Information Technology",
   academicStatus: "Undergraduate Student",
-  studyPeriod: "2023 – Present (Ongoing)",
+  studyPeriod: "2023 – Present (Ongoing)",  
   location: "Phnom Penh, Cambodia",
   careerGoal: "Become a skilled IT professional who can combine programming, databases, networking, and business information systems.",
   

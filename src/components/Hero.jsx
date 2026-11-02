@@ -51,7 +51,7 @@ export function Hero({ profile, onOpenProfileModal }) {
 
             {/* Introduction paragraph */}
             <p className="text-base sm:text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-normal">
-              I am passionate about bridging the gap between business processes and technical architecture. My studies focus on developing full-stack web applications, architecting normalized databases, and configuring reliable enterprise network infrastructures.
+              I am passionate about connecting business needs with technology-driven solutions. As an MIS student, I am exploring software development, database management, business processes, and network infrastructure to understand how technology can improve efficiency and support better business decisions.
             </p>
 
             {/* Call to Action Buttons */}
