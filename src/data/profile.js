@@ -23,9 +23,9 @@ export const defaultProfile = {
   isLinkedinConfigured: false,
 
   aboutParagraphs: [
-    "I am currently an undergraduate student majoring in Management Information Systems (MIS) / IT at SETEC Institute in Phnom Penh, Cambodia. My academic journey is driven by a deep curiosity about how digital systems connect business logic, software engineering, and underlying network infrastructures.",
-    "Rather than limiting myself to a single discipline, I actively bridge software development, database design, and systems administration. I enjoy analyzing how data flows from user interfaces to backend servers and through enterprise network boundaries.",
-    "My objective is to solve practical business problems through clean code, structured relational and document databases, and dependable network setups. I am dedicated to continuous learning and hands-on, project-based practice."
+    "I am an undergraduate student majoring in Management Information Systems (MIS) / Information Technology at SETEC Institute in Phnom Penh, Cambodia. I am interested in understanding how businesses operate and how technology can support their processes, improve efficiency, and solve practical problems.",
+    "Through my studies and hands-on projects, I am exploring software development, database management, systems administration, and network infrastructure. I enjoy learning how these technical areas connect with business requirements and contribute to effective information systems.",
+    "My goal is to develop the skills needed to bridge business needs and technology solutions. I am continuously learning, improving my technical abilities, and gaining practical experience through academic projects and IT labs as I prepare for future opportunities in the IT and business information systems field."
   ],
 
   learningStatement: "I believe technology delivers the greatest value when technical precision aligns with operational business requirements. Every lab, project, and line of code is an opportunity to strengthen that bridge.",

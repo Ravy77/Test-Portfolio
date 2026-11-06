@@ -16,7 +16,7 @@ export function About({ profile, onOpenProfileModal }) {
             About Me
           </h2>
           <p className="text-slate-600 dark:text-slate-400 text-sm sm:text-base">
-            An honest perspective on my academic path, technical curiosity, and student aspirations in Information Systems.
+            My journey in Management Information Systems is driven by my interest in how business and technology work together to create practical solutions.
           </p>
         </div>
 
@@ -99,15 +99,19 @@ export function About({ profile, onOpenProfileModal }) {
                 <div className="space-y-1.5 text-xs text-slate-700 dark:text-slate-300">
                   <div className="flex items-center gap-2">
                     <CheckCircle className="w-3.5 h-3.5 text-primary shrink-0" />
-                    <span>Database Architecture & SQL Schema Normalization</span>
+                    <span>Business Process Analysis & Information Systems</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <CheckCircle className="w-3.5 h-3.5 text-primary shrink-0" />
-                    <span>Frontend UI Development with Modern React & Tailwind</span>
+                    <span>Database Design & Management (SQL and MongoDB)</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <CheckCircle className="w-3.5 h-3.5 text-primary shrink-0" />
-                    <span>Windows Server Administration & Network Topology Labs</span>
+                    <span>Web Application Development (React and Tailwind CSS)</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle className="w-3.5 h-3.5 text-primary shrink-0" />
+                    <span>IT Infrastructure & Network Administration</span>
                   </div>
                 </div>
               </div>
@@ -116,7 +120,7 @@ export function About({ profile, onOpenProfileModal }) {
 
             {/* Quick stats / milestones note */}
             <div className="p-4 rounded-xl bg-slate-50 dark:bg-navy-850/60 border border-slate-200 dark:border-navy-border text-xs text-slate-500 dark:text-slate-400 text-center font-mono">
-              Always eager to learn new technologies, tackle practical labs, and collaborate on student-level software initiatives.
+              Always eager to explore new technologies, gain hands-on experience, and collaborate on projects that connect business needs with technology-driven solutions.
             </div>
 
           </div>

@@ -33,7 +33,7 @@ export function Hero({ profile, onOpenProfileModal }) {
             {/* Main Greeting & Headline */}
             <div className="space-y-2">
               <p className="intro-animated text-sm sm:text-base font-mono font-medium text-primary">
-                {"Hello, I'm".split("").map((letter, index) => (
+                {"Greetings, I'm".split("").map((letter, index) => (
                   <span key={index} style={{ "--i": index }}>
                     {letter === " " ? "\u00A0" : letter}
                   </span>
